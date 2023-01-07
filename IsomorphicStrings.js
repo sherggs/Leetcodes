@@ -20,7 +20,7 @@ var isIsomorphic = function(s, t) {
     }
 
     if (Object.keys(sMap).length !== Object.keys(tMap).length) {
-        return false
+        return false;
     }
 
     return true
